@@ -1,14 +1,14 @@
 {
-let inf=prompt("enter your name");
-do {
-    prompt("enter your name");
+let inf= prompt("Enter your name ");
+while(inf == "") {
+inf = prompt("Enter your name");
 }
-while(inf == "");
+
 alert(inf,"welcome to percentage conveter", );
 
-let scr = prompt("Enter your percentage % ");
+let scr=prompt("Enter your percentage %");
 while(scr == "") {
-    prompt("Enter your percentage %");
+    scr=prompt("Enter your percentage %");
 }
 if(scr>=90 && scr<=100) {
     console.log(inf,"Congratulation! you have score A+ ");
